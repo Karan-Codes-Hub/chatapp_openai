@@ -40,7 +40,6 @@ This is a simple chat application built using Node.js, Express.js and an open AP
      ```
      npm install
      npm run dev
-     
      ```.
 
 2. **Usage:**
