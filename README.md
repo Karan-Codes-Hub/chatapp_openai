@@ -1,6 +1,6 @@
 # Chat Application using Open API
 
-This is a simple chat application built using Node.js, Express.js, Socket.io, and an open API for generating responses. Users can sign up, log in, set their online status, and engage in real-time messaging with other users.
+This is a simple chat application built using Node.js, Express.js and an open API for generating responses. Users can sign up, log in, set their online status, and engage in real-time messaging with other users.
 
 ## Features
 
@@ -41,20 +41,9 @@ This is a simple chat application built using Node.js, Express.js, Socket.io, an
      npm install
      npm run dev
      
-     ```
+     ```.
 
-2. **Configuration:**
-   - Set up MongoDB and configure the connection string in `config.js`.
-   - Obtain an API key for the language model API and update the code accordingly.
-
-3. **Starting the Server:**
-   - Run the server:
-     ```
-     npm start
-     ```
-   - The server will start at `http://localhost:3000`.
-
-4. **Usage:**
+2. **Usage:**
    - Open the application in your browser.
    - Register a new account or log in with existing credentials.
    - Set your online status and start chatting with other users.
