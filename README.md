@@ -29,12 +29,18 @@ This is a simple chat application built using Node.js, Express.js, Socket.io, an
 1. **Installation:**
    - Clone the repository:
      ```
-     git clone https://github.com/your-username/chat-app.git
+     git clone https://github.com/your-username/chatapp_openai.git
      ```
    - Install dependencies:
      ```
-     cd chat-app
+     cd chatapp_openai
+     
+     ```
+     Now Run npm install and npm run dev on both server and client
+     ```
      npm install
+     npm run dev
+     
      ```
 
 2. **Configuration:**
@@ -57,20 +63,14 @@ This is a simple chat application built using Node.js, Express.js, Socket.io, an
 
 - Node.js
 - Express.js
-- Socket.io
-- MongoDB
+- ChatEngine
 - JWT (JSON Web Tokens)
 - Open API (e.g., ChatGPT, Claude, Gemini)
 
 ## Credits
-
-- [Socket.io](https://socket.io/) for real-time communication.
 - [Express.js](https://expressjs.com/) for building the server.
-- [Mongoose](https://mongoosejs.com/) for MongoDB object modeling.
 - [JWT](https://jwt.io/) for authentication.
 - Open API providers for language model integration.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
